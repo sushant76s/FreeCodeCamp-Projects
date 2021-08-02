@@ -3,6 +3,7 @@ body {
 }
 
 #title {
+    background-color: rgba(255, 255, 255, 0.527);
     text-align: center;
     font-size: 40px;
     font-weight: 100;
@@ -91,7 +92,7 @@ label {
 #submit {
     color: ivory;
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 0.10rem;
     background: rgb(0, 0, 0);
     border-radius: 4px;
@@ -101,4 +102,9 @@ label {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
 
