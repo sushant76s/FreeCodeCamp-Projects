@@ -8,6 +8,195 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1 id="title"><span style="color: white">Hacker</span><span style="color: orange">Rank</span> Survey Form</h1>
+    <p id="description">Help us to improve our platform.</p>
+    <header>
+        <form id="survey-form" action="">
+            <div class="form-field">
+                <label id="name-label" for="name">Name</label>
+                    <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-field-control"
+                    placeholder="Enter your full name"
+                    required
+                    />
+            </div>
+            <div class="form-field">
+                <label id="email-label" for="email">Email</label>
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-field-control"
+                    placeholder="Enter your email address"
+                    required
+                    />
+            </div>
+            <div class="form-field">
+                <label id="number-label" for="age">Age Group</label>
+                    <input 
+                    type="number"
+                    name="age"
+                    id="number"
+                    min="10"
+                    max="90"
+                    class="form-field-control"
+                    placeholder="Enter your age or select from right"
+                    />
+            </div>
+            <div class="form-field">
+                <p class="paraline">Which option best describes you?</p>
+                <select id="dropdown" name="role" class="form-field-control" required>
+                    <option disabled selected value>Select your option</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <p class="paraline">Would you recommend HackerRank to a friend?</p>
+                <label>
+                    <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                    />Definitely</label
+                >
+                <label>
+                    <input
+                    name="user-recommend"
+                    value="maybe"
+                    type="radio"
+                    class="input-radio"
+                    />Maybe</label
+                >
+
+                <label
+                    ><input
+                    name="user-recommend"
+                    value="not-sure"
+                    type="radio"
+                    class="input-radio"
+                    />Not sure</label
+                >
+            </div>
+            <div class="form-field">
+                <p class="paraline">
+                    Your fevourite section?
+                    <span class="hint">(Check all that apply)</span>
+                </p>
+
+                <label
+                    ><input
+                    name="prefer"
+                    value="algorithms"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Algorithms</label
+                >
+                <label>
+                    <input
+                    name="prefer"
+                    value="data-structure"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Data-Structure</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="mathematics"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Mathematics</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="c"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />C</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="C++"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />C++</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="java"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Java</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="python"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Python</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="ruby"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Ruby</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="linux-shell"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Linux-Shell</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="functional-programming"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Functional-Programming</label
+                >
+                <label
+                    ><input
+                    name="prefer"
+                    value="artificial-intelligence"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Artificial-Intelligence</label
+                >
+            </div>
+            <div class="form-group">
+                <p class="paraline">Any comments or suggestions?</p>
+                <textarea
+                    id="comments"
+                    class="input-textarea"
+                    name="comment"
+                    placeholder="Enter your comment here..."
+                ></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">
+                    Submit
+                </button>
+            </div>
+
+        </form>
+    </header>
 </body>
 </html>
