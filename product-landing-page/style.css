@@ -1,11 +1,24 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
 #header {
-background: linear-gradient(to right, rgb(105, 226, 105), white, rgb(105, 226, 105));
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(105, 226, 105), white, rgb(105, 226, 105));
 }
 #header-img {
     width: 45px;
     height: 45px;
     margin-top: 4.5px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 .quote {
     font-size: 30px;
@@ -20,6 +33,12 @@ h1 {
     font-weight: 400;
     font-size: medium;
 
+}
+
+h2 {
+    color: rgb(32, 32, 109);
+    text-align: center;
+    background: linear-gradient(to right, rgb(105, 226, 105), white, rgb(105, 226, 105));
 }
 #nav-bar {
     align-items: center;
@@ -74,12 +93,31 @@ h1 {
     justify-content: center;
 }
 
-#video {
-    width: 320;
-    height: 240;
-    justify-items: center;
+.about-content {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
 }
 
-.flex-container {
+#video {
+    width: 720px;
+    height: 340px;
+}
+#videoele {
+    margin-top: 50px;
     display: flex;
-  }
+    justify-content: center;
+}
+#flex {
+    justify-content: center;
+    margin-top: 20px;
+    color: darkblue;
+    font-size: 25px;
+    background-color: darkgray;
+}
+footer {
+    /* display: inline-block; */
+    margin-top: 20px;
+    background-color: rgb(99, 212, 118);
+    padding: 10px;
+}

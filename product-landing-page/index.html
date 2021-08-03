@@ -10,9 +10,10 @@
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <header id="header">
+<script src="product.js"></script>
+    <header id="header" class="sticky">
         <nav id="nav-bar">
-            <ul class="nav justify-content-center" id="homelink">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <img id="header-img" src="https://banner2.cleanpng.com/20181129/oja/kisspng-computer-icons-plants-leaf-garden-seedling-14-cliparts-for-free-download-lawn-clipart-garden-5c006b1df31410.2625740415435312939957.jpg" alt="logo of the product landing Page">
                 </li>
@@ -26,13 +27,16 @@
                     <a class="nav-link" href="#aboutlink">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#productlink">Products</a>
+                    <a class="nav-link" href="#plantlink">Plants</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <p class="quote">"If you have a garden in your library, everything will be complete."</p>
-    <form id="form" action="">
+    <br>
+    <br>
+    <br>
+    <p id="homelink" class="quote">"If you have a garden in your library, everything will be complete."</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
             <div class="form-field">
                     <input
                     type="email"
@@ -49,23 +53,65 @@
                 </button>
             </div>
     </form>
-    <div>
+    <div id="aboutlink" class="about-content">
         <h2>About the Plants and Nature</h2>
+        <br>
         <ul>
             <li><strong>Plants</strong></li>
             <p>Plants are one of six big groups (kingdoms) of living things. They are autotrophic eukaryotes, which means they have complex cells, and make their own food. Usually they cannot move (not counting growth). <br><br>
             Plants include familiar types such as trees, herbs, bushes, grasses, vines, ferns, mosses, and green algae. The scientific study of plants, known as botany, has identified about 350,000 extant (living) species of plants. Fungi and non-green algae are not classified as plants. <br><br>Most plants grow in the ground, with stems in the air and roots below the surface. Some float on water. The root part absorbs water and some nutrients the plant needs to live and grow. These climb the stem and reach the leaves. The evaporation of water from pores in the leaves pulls water through the plant. This is called transpiration. <br><br>A plant needs sunlight, carbon dioxide, minerals and water to make food by photosynthesis. A green substance in plants called chlorophyll traps the energy from the Sun needed to make food. Chlorophyll is mostly found in leaves, inside plastids, which are inside the leaf cells. The leaf can be thought of as a food factory. Leaves of plants vary in shape and size, but they are always the plant organ best suited to capture solar energy. Once the food is made in the leaf, it is transported to the other parts of the plant such as stems and roots. <br><br>The word "plant" can also mean the action of putting something in the ground. For example, farmers plant seeds in the field. <br><br>Photosynthesis is a process that is taken place by the leaves on the plant. The leaves are the only parts of a plant that can do this process (as they adapted). This is also known as how the plant gets its food.You can make the process quicker by adding more CO2, light and chlorophyll.
             </p>
             <li><strong>Nature</strong></li>
+            <p>The word nature is borrowed from the Old French nature and is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth". In ancient philosophy, natura is mostly used as the Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord. The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers (though this word had a dynamic dimension then, especially for Heraclitus), and has steadily gained currency ever since. During the advent of modern scientific method in the last several centuries, nature became the passive reality, organized and moved by divine laws. With the Industrial revolution, nature increasingly became seen as the part of reality deprived from intentional intervention: it was hence considered as sacred by some traditions (Rousseau, American transcendentalism) or a mere decorum for divine providence or human history (Hegel, Marx). However, a vitalist vision of nature, closer to the presocratic one, got reborn at the same time, especially after Charles Darwin.
+            </p>
         </ul>
     </div>
-    <iframe id="video"
-        src="">
-    </iframe>
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+    <div id="videoele">
+        <iframe
+            id="video"
+            allowfullscreen
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
     </div>
+    <br>
+    <br>
+    <br>
+    <div id="plantlink" class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Fruits Plants</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis suscipit? Delectus optio excepturi cupiditate hic necessitatibus? Excepturi voluptatum temporibus magni consectetur eaque. Reprehenderit eum voluptates corrupti temporibus pariatur ipsam!</p>
+                <a href="#" class="btn btn-primary">More</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Big Trees Plants</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae enim ducimus placeat corporis expedita similique consequatur totam reprehenderit, officia explicabo repellendus nobis obcaecati et dolorum deleniti. Soluta distinctio minima animi?</p>
+                <a href="#" class="btn btn-primary">More</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Flowers Plants</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat voluptatum enim hic sapiente at, veniam illum dolor tempora, perspiciatis vero, eius similique deleniti laborum maiores nesciunt earum sunt. Dolores.</p>
+                <a href="#" class="btn btn-primary">More</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <span>&copy 2021, FreePlants</span>
+    </footer>
 </body>
 </html>
