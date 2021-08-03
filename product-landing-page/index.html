@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <header id="header">
-        <img id="header-img" src="" alt="logo of the product landing Page">
         <nav id="nav-bar">
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-center" id="homelink">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#homelink">Home</a>
+                    <img id="header-img" src="https://banner2.cleanpng.com/20181129/oja/kisspng-computer-icons-plants-leaf-garden-seedling-14-cliparts-for-free-download-lawn-clipart-garden-5c006b1df31410.2625740415435312939957.jpg" alt="logo of the product landing Page">
+                </li>
+                <li>
+                    <h1>FreePlants</h1>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#homelink">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#aboutlink">About</a>
@@ -24,36 +31,41 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <form id="form" action="">
+    <p class="quote">"If you have a garden in your library, everything will be complete."</p>
+    <form id="form" action="">
             <div class="form-field">
-                <label id="name-label" for="name">Name</label>
-                    <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-field-control"
-                    placeholder="Enter your full name"
-                    required
-                    />
-            </div>
-            <div class="form-field">
-                <label id="email-label" for="email">Email</label>
                     <input
                     type="email"
                     name="email"
                     id="email"
                     class="form-field-control"
-                    placeholder="Enter your email address"
+                    placeholder="Enter your Email Address ..."
                     required
                     />
             </div>
-            <div class="btn">
+            <div class="bt">
                 <button type="submit" id="submit">
-                    Submit
+                    Get Started
                 </button>
             </div>
-        </form>
-    </section>
+    </form>
+    <div>
+        <h2>About the Plants and Nature</h2>
+        <ul>
+            <li><strong>Plants</strong></li>
+            <p>Plants are one of six big groups (kingdoms) of living things. They are autotrophic eukaryotes, which means they have complex cells, and make their own food. Usually they cannot move (not counting growth). <br><br>
+            Plants include familiar types such as trees, herbs, bushes, grasses, vines, ferns, mosses, and green algae. The scientific study of plants, known as botany, has identified about 350,000 extant (living) species of plants. Fungi and non-green algae are not classified as plants. <br><br>Most plants grow in the ground, with stems in the air and roots below the surface. Some float on water. The root part absorbs water and some nutrients the plant needs to live and grow. These climb the stem and reach the leaves. The evaporation of water from pores in the leaves pulls water through the plant. This is called transpiration. <br><br>A plant needs sunlight, carbon dioxide, minerals and water to make food by photosynthesis. A green substance in plants called chlorophyll traps the energy from the Sun needed to make food. Chlorophyll is mostly found in leaves, inside plastids, which are inside the leaf cells. The leaf can be thought of as a food factory. Leaves of plants vary in shape and size, but they are always the plant organ best suited to capture solar energy. Once the food is made in the leaf, it is transported to the other parts of the plant such as stems and roots. <br><br>The word "plant" can also mean the action of putting something in the ground. For example, farmers plant seeds in the field. <br><br>Photosynthesis is a process that is taken place by the leaves on the plant. The leaves are the only parts of a plant that can do this process (as they adapted). This is also known as how the plant gets its food.You can make the process quicker by adding more CO2, light and chlorophyll.
+            </p>
+            <li><strong>Nature</strong></li>
+        </ul>
+    </div>
+    <iframe id="video"
+        src="">
+    </iframe>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 </body>
 </html>
