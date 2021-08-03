@@ -1,0 +1,65 @@
+#header {
+
+}
+#header-img {
+style of logo will be here ;
+}
+#nav-bar {
+
+}
+.nav-link {
+    include in bootstrap;
+}
+
+#form {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgb(235, 85, 85), white );
+    padding: 1rem 1rem;
+}
+.form-field {
+    margin: 0 auto 1.5rem auto;
+    padding: 0.2rem;
+}
+.form-field-control {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin: auto;
+    color: #1d2630;
+    background-color: rgb(238, 194, 173);
+    background-clip: padding-box;
+    border: 1.5px solid #000000;
+    border-radius: 0.25rem;
+}
+
+#name, #email {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name-label, #email-label {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: serif;
+}
+#submit {
+    color: ivory;
+    display: block;
+    width: 50%;
+    padding: 0.10rem;
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
