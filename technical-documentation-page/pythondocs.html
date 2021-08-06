@@ -9,33 +9,40 @@
 </head>
 <body>
     <nav id="navbar">
-    <header>Python Documentation</header>
+    <center>
+    <header class="topic">Python Documentation</header>
+    </center>
         <ul>
-            <li><a class="nav-link" href="#Modules,_Comments_and_Pip">Modules, Comments and Pip</a></li>
-            <li><a class="nav-link" href="#Variables_and_Datatypes">Variables and Datatypes</a></li>
-            <li><a class="nav-link" href="#Strings">Strings</a></li>
-            <li><a class="nav-link" href="#Lists_and_Tuples">Lists and Tuples</a></li>
-            <li><a class="nav-link" href="#Dictionary_and_Sets">Dictionary and Sets</a></li>
-            <li><a class="nav-link" href="#Conditional_Expressions">Conditional Expressions</a></li>
+            <li><a class="nav-link" href="#Modules,_Comments_and_Pip">Modules, Comments and Pip</a></li><br>
+            <li><a class="nav-link" href="#Variables_and_Datatypes">Variables and Datatypes</a></li><br>
+            <li><a class="nav-link" href="#Strings">Strings</a></li><br>
+            <li><a class="nav-link" href="#Lists_and_Tuples">Lists and Tuples</a></li><br>
+            <li><a class="nav-link" href="#Dictionary_and_Sets">Dictionary and Sets</a></li><br>
+            <li><a class="nav-link" href="#Conditional_Expressions">Conditional Expressions</a></li><br>
         </ul>
     </nav>
     <main id="main-doc">
-        several sections and header which describe the heading and article describe the content.
-        at least 5 li items
+        <header class="topic">Python Documentation</header><br><br>
         <section class="main-section" id="Modules,_Comments_and_Pip">
             <header>Modules, Comments and Pip</header>
             <ul>
                 <li><strong>Modules</strong>
                 <p>A Module is a file containing code written by somebody else (usually) which can be imported and used in our programs.</p>
+                <div class="pcode">
                 <code>import os<br>import PlaySound</code>
-                </li>
+                </div>
+                </li><br>
                 <li><strong>Comments</strong>
                 <p>Comments are used to write something which the programmer does not want to execute (can be used to mark author name, date etc.).</p>
+                <div class="pcode">
                 <code>#Hi I am single line comment.<br>'''Hi I am <br>multi line comment'''</code>
-                </li>
+                </div>
+                </li><br>
                 <li><strong>Pip</strong>
                 <p>pip is the package manager for python. You can use pip to install a module on your system. For example if you want to install the flask module on your system, just open your terminal and type the folowing code.</p>
+                <div class="pcode">
                 <code>pip install flask</code>
+                </div>
                 </li>
             </ul>
         </section>
@@ -45,7 +52,9 @@
             <ul>
                 <li><strong>Variables</strong>
                 <p>A variable is the name given to a memory location in a program. Variables are just like container to store a value.<br>For example</p>
+                <div class="pcode">
                 <code>a = 30 <br>b = "rohit" <br>c = 56.88</code>
+                </div>
                 <p>Python is a fantastic language that automatically identifies the type of data for us.</p>
                 <ul>
                 <p>Rules for defining a variable name...</p>
@@ -54,7 +63,7 @@
                 <li>A variable name can not start with a digit.</li>
                 <li>No white space is allowed to be used inside a variable name.</li>
                 </ul>
-                </li>
+                </li><br>
                 <li><strong>Data Types</strong>
                 <p>Primarly there are following data types in python.</p>
                 <ul>
@@ -74,9 +83,9 @@
                 <li><strong>Strings</strong>
                 <p>String is a data type in python. <br>String is a sequence of characters enclosed in quotes. <br>We can primarly, write a string in these three ways.</p>
                 <ul>
-                <li>Single quoted string <br><code>a = 'rohit'</code></li>
-                <li>Double quoted string <br><code>a = "rohit"</code></li>
-                <li>Triple quoted string <br><code>a = '''rohit'''</code></li>
+                <li>Single quoted string <br><div class="pcode"><code>a = 'rohit'</code></div></li>
+                <li>Double quoted string <br><div class="pcode"><code>a = "rohit"</code></div></li>
+                <li>Triple quoted string <br><div class="pcode"><code>a = '''rohit'''</code></div></li>
                 </ul>
                 </li>
             </ul>
@@ -87,11 +96,15 @@
             <ul>
                 <li><strong>Lists</strong>
                 <p>Python lists are containers to store a set of values of any data type. <br>Can store value of any data type.</p>
+                <div class="pcode">
                 <code>Mylist = ['Apple', "Rohit", 7, False]</code>
-                </li>
+                </div>
+                </li><br>
                 <li><strong>Tuples</strong>
                 <p>A tuple is an immutable data type in python.</p>
+                <div class="pcode">
                 <code>a = () #Empty tuple <br> a = (1,) #Tuple with only one element needs a comma <br> a = (1, 4, 5, 8) #Tuple with more than one element</code>
+                </div>
                 <p>Once defined a tuple, elements can not be altered of manipulated.</p>
                 </li>
             </ul>
@@ -102,7 +115,9 @@
             <ul>
                 <li><strong>Dictionary</strong>
                 <p>Dictionary is a collection of key-value pairs.</p>
+                <div class="pcode">
                 <code>d = {"key":"value", "green":"color", "number":"56", "list":[1, 3, 7]}</code>
+                </div>
                 <p>Properties of Python Dictionary</p>
                 <ul>
                 <li>It is unordered</li>
@@ -110,10 +125,12 @@
                 <li>It is indexed</li>
                 <li>Can't contain duplicate keys</li>
                 </ul>
-                </li>
+                </li><br>
                 <li><strong>Sets</strong>
                 <p>Set is the collecton of non repetitive elements.</p>
+                <div class="pcode">
                 <code>S = Set() <br>S.add(1) <br>S.add(2)</code>
+                </div>
                 <p>Properties of Sets</p>
                 </li>
                 <ul>
@@ -130,7 +147,9 @@
             <ul>
                 <li><strong>If else and elif in Python</strong>
                 <p>If else and elif statements are a multiway decision taken by our program due to certain conditions in our code.</p>
+                <div class="pcode">
                 <code>a = 55 <br>if(a>50): <br>print("Greater") <br>else: <br>print("Lesser")</code>
+                </div>
                 <p>*Important</p>
                 <ul>
                 <li>There can be any number of elif statements.</li>

@@ -1,32 +1,91 @@
 #main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 10px;
+    margin-bottom: 110px;
 
 }
 
 .main-section {
-
+    margin-top: 20px;
 }
 
 #navbar {
-
+    position: fixed;
+    min-width: 100px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 300px;
+    border-right: solid;
+    border-color: black;
 }
 
 .nav-link {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
+#navbar ul {
+    height: 80%;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar li {
+    color: black;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  #navbar a {
+    display: block;
+    padding: 15px 20px;
+    color: #1d308a;
+    text-decoration: none;
+    cursor: pointer;
+}
 
-code {
-    background-color: rgb(196, 191, 191);
+.pcode {
+    color: white;
+    background-color: rgb(44, 42, 42);
+}
+
+
+.topic {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+
+header {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /* for mobile phones */
 @media only screen and (max-width: 815px) {
-    /* For mobile phones: */
-    #navbar ul {
-      border: 1px solid;
-      height: 207px;
-    }
-
-@media only screen and (max-width: 400px) {
-    #main-doc {
-        margin-left: -10px;
-    }
+    #navbar {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        padding: 10;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+      }
+      #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+      }
+      .topic {
+        text-align: center;
+      }
+}
