@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to bottom, rgb(212, 95, 95), rgb(59, 143, 211));
+}
+#welcome-section {
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+}
+.welcome {
+    padding: 50px;
+    padding-top: 200px;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+
+}
+
+.proje {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.project-tile {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.c-header {
+    margin-top: 100px;
+
+}
+
+#profile-link {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#contact {
+    text-align: center;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        width: 82%;
+      }
+    #welcome-section {
+        width: 82%;
+        height: 360px;
+        margin-top: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
