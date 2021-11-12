@@ -120,4 +120,6 @@ footer {
     margin-top: 20px;
     background-color: rgb(99, 212, 118);
     padding: 10px;
+    align-items: center;
+    text-align: center;
 }
