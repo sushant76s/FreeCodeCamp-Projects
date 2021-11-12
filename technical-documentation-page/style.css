@@ -10,6 +10,11 @@
     margin-top: 20px;
 }
 
+.header_image {
+   text-align: center;
+   background-color: black;
+}
+
 #navbar {
     position: fixed;
     min-width: 100px;
@@ -32,6 +37,7 @@
     padding: 20px;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-top: 45px;
 }
 #navbar li {
     color: black;
@@ -59,6 +65,7 @@
     font-weight: 600;
     font-size: 25px;
     color: black;
+    margin-top: 50px;
 }
 
 header {
