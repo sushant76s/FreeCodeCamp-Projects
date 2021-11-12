@@ -90,11 +90,11 @@ label {
 }
 
 #submit {
-    color: ivory;
+    color: rgb(0, 0, 0);
     display: block;
     width: 50%;
     padding: 0.10rem;
-    background: rgb(0, 0, 0);
+    background: rgb(42, 233, 35);
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
