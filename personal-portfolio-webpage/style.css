@@ -52,13 +52,23 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 768px) {
     #navbar {
         position: fixed;
         overflow: hidden;
+        width: 87%;
         top: 0;
-        width: 82%;
-      }
+    }
+
+    .proje {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        margin-right: 45px;
+    }
+
     #welcome-section {
         width: 82%;
         height: 360px;
@@ -66,5 +76,18 @@ body {
         justify-content: center;
         text-align: center;
     }
+
+    #projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        }
 }
