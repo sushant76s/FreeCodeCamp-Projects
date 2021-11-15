@@ -108,3 +108,24 @@ label {
     justify-content: center;
 }
 
+/* For the mobile view */
+@media only screen and (max-width: 768px) {
+    #survey-form {
+        margin: auto;
+        width: 80%;
+        border: 3px solid black;
+        border-radius: 1rem;
+        padding: 10px;
+        background: linear-gradient(to bottom, rgb(235, 85, 85), white );
+        padding: 1rem 1rem;
+    }
+
+    .input-textarea {
+        min-height: 80px;
+        width: 100%;
+        padding: 0.08rem;
+        resize: vertical;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}
